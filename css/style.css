@@ -7,23 +7,55 @@
 
 /* COMMON */
 .container{
-    width: 70%;
+    width: 75%;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+.square{
+    background-color: #d3d3d36b;
+    width: 80%;
     margin: 0 auto;
 }
 
 /* HEADER */
 .header{
-    height: 100px;
-    line-height: 100px;
+    height: 80px;
+    line-height: 80px;
 }
 
 #logo-img{
-    height: 80px;
+    height: 60px;
     vertical-align: middle;
 }
 
 #logo-text{
     vertical-align: middle;
-    font-family: 'Roboto', sans-serif;
-    font-size: 40px;
+    font-size: 30px;
 }
+
+/* NAV */
+.nav{
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+
+#bottom-1{
+   width: 70px;
+   height: 25px;
+   border-radius: 5px;
+   border-style: none;
+   background-color: #5dbbe0;
+   margin-bottom: 10px;
+}
+
+#bottom-2{
+    width: 90px;
+    height: 25px;
+    border-radius: 5px;
+    border-style: none;
+    border: 1px solid gray;
+ }
+/* MAIN */
