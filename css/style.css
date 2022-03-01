@@ -1,3 +1,29 @@
-body{
-    background-color: red;
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* COMMON */
+.container{
+    width: 70%;
+    margin: 0 auto;
+}
+
+/* HEADER */
+.header{
+    height: 100px;
+    line-height: 100px;
+}
+
+#logo-img{
+    height: 80px;
+    vertical-align: middle;
+}
+
+#logo-text{
+    vertical-align: middle;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
 }
